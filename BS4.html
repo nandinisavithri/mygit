@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .border.border-primary {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+
+        .card1{
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <hr />
+        <strong> This is Boostrap4</strong><br />
+        <span class="text-muted"> What color is this text?</span> <br />
+        <span class="text-primary"> What color is this text?</span><br />
+        <span class="text-secondary"> What color is this text?</span><br />
+        <span class="text-warning"> What color is this text ?</span><br />
+        <span class="text-danger"> What color is this text?</span><br />
+        <span class="text-info"> What color is this text?</span><br />
+        <span class="text-muted"> What color is this text?</span><br />
+        <span class="text-success"> What color is this text?</span><br />
+        <span class="text-dark"> What color is this text?</span><br />
+        <span class="text-light"> What color is this text?</span>
+        <hr />
+        <button class="btn btn-primary"> Button </button>
+        <button class="btn btn-secondary"> Button </button>
+        <hr />
+        <button class="btn btn-outline-primary"> Border</button>
+        <button class="btn btn-outline-success"> Border</button>
+        <hr />
+        <span class="border border-primary"></span>
+        <hr />
+        <span class="badge badge-primary"> Badge</span>
+        <span class="badge badge-pill badge-success"> Badge</span>
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-grow text-danger"></div>
+        <hr />
+
+        <div class="card1" style="width:200px">
+            <img class="card-img-top" src="food/smallpic1.jpg" alt="food" />
+            <div class="card-body">
+                <h4> Breakfast </h4>
+                <p> snacks </p>
+            </div>
+        </div>
+        <div class="card1" style="width:200px">
+            <img class="card-img-top" src="food/smallpic2.jpg" alt="food" />
+            <div class="card-body">
+                <h4> Breakfast </h4>
+                <p> snacks </p>
+            </div>
+        </div>
+
+        <hr />
+
+        <div id="ImageCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="ImageCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="ImageCarousel" data-slide-to="1"></li>
+                <li data-target="ImageCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="large.png" style="width:100%;height:300px" />
+                </div>
+                <div class="carousel-item">
+                    <img src="restaurent1.jpg" style="width:100%;height:300px" />
+                </div>
+                <div class="carousel-item">
+                    <img src="large1.jpg" style="width:100%;height:300px" />
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#ImageCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"> </span>
+            </a>
+            <a class="carousel-control-next" href="#ImageCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"> </span>
+            </a>
+        </div>
+        <hr />
+
+        
+        <img src="large.png" alt="Alternate Text" class="img-fluid" />
+
+
+    </div>
+</body>
+</html>
