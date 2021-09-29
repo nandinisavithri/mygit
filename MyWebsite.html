@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <title>MyWebsite</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <link href="MyWebsite.css" rel="stylesheet" />
+    <link href="logo.png" rel="icon" />
+</head>
+
+<body>
+
+    <!--adding navigation bar-->
+    <div class=container>
+        <div class="navbar navbar-inverse">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="font-size:40px;color:black"> <strong> Beauty & C&ouml; </strong></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="test">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" style="font-size:15px;word-spacing:normal;"><span class="glyphicon glyphicon-user"></span><strong> &nbsp; Login</strong></a></li>
+                        <li><a href="#" style="font-size:15px;"><strong>Home</strong></a></li>
+                        <li><a href="#" style="font-size:15px;"><strong>Book Online</strong></a></li>
+                        <li><a href="#" style="font-size:15px;"><strong>Services</strong></a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" style="font-size:15px;"><span class="glyphicon glyphicon-phone-alt"> </span><strong> &nbsp; Contact Us</strong></a></li>
+                        <li><a href="https://www.facebook.com" class="fa fa-facebook-square" target="_blank"></a></li>
+                        <li><a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <!--adding homepage image, button and welcome -->
+        <div class="image">
+            <strong class="welcome" style="margin-left:20%; margin-top:15%; font-family:'Brush Script MT',cursive; font-size:200px;">Welcome</strong>
+            <strong class="welcome" style="margin-left:20%; margin-top:22%; font-family:Arial; font-size:30px;">To a Full Beauty & Co Experience</strong>
+            <strong class="welcome" style="margin-left:20%; margin-top:40%; font-family:Arial; font-size:30px;">Book an appointment</strong>
+            <div class="book">
+                <button type="button" class="btn btn-info btn-lg" style="background-color:black" data-toggle="modal" data-target="#details">Click Here</button>
+            </div>
+        </div>
+
+        <!--adding popup window-->
+        <div id="details" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                        </button>
+                        <h4 class="modal-title">Book Appointment</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Contact: +61 0123456789
+                        </p>
+                        <strong>Timings</strong>
+                        <p>
+                            Sun Holiday<br />
+                            Mon 9:00am to 5:00pm<br />
+                            Tue 9:00am to 5:00pm<br />
+                            Wed 9:00am to 5:00pm<br />
+                            Thu 9:00am to 5:00pm<br />
+                            Fri 9:00am to 5:00pm<br />
+                            Sat 9:00am to 5:00pm
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--adding second image and text-->
+        <div class="second_image_color">
+            <div class="second_image">
+            </div>
+
+            <div class="second_image_text">
+                <strong style="margin-left:10%; margin-top:-10%; font-family:'Baskerville Old Face'; font-size:40px;display:block">
+                    EVERYONE DESERVES
+                    <br />
+                    TO FEEL BEAUTIFUL
+                </strong>
+                <h4 style="margin-left: 10%;display: block;line-height:1.6;margin-top:5%">At the Beauty & Brow Parlour, we believe that self-care is a priority, not a luxury. We recognise that beauty begins with self-appreciation and our highly skilled team of beauticians and beauty experts are dedicated to making you feel beautiful and valued – allowing you to embrace your beauty and show the world your confidence. </h4>
+                <br />
+                <a href="https://www.google.com" target="_blank" style="margin-left: 10%;"> Read More </a>
+            </div>
+        </div>
+    </div>
+
+    <!--adding carousal-->
+    <div id="ImagesCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="beauty/1.jpg" style="width:90%;margin-left:5%;height:400px;" />
+            </div>
+            <div class="item">
+                <img src="beauty/2.jpg" style="width:90%;margin-left:5%;height:400px;" />
+            </div>
+            <div class="item">
+                <img src="beauty/makeup3.jpg" style="width:90%;margin-left:5%;height:400px;" />
+            </div>
+            <div class="item">
+                <img src="beauty/makeup4.jpg" style="width:90%;margin-left:5%;height:400px;" />
+            </div>
+        </div>
+    </div>
+
+        <!--adding footer-->
+        <div class="footer1">
+            <span class="footer-title1">
+                Beauty & Co
+            </span>
+            <div>
+                <ul class="footer-links1">
+                    <li style="display:inline-block;">
+                        <a href="#" style="text-decoration:none; color:#fff; font-size:20px;"> &nbsp; About</a>
+                    </li>
+                    <li style="display:inline-block;">
+                        <a href="#" style="text-decoration:none; color:#fff;font-size:20px">&nbsp; Contact Us</a>
+                    </li>
+                    <li style="display:inline-block;">
+                        <a href="#" style="text-decoration:none; color:#fffF;font-size:20px"> &nbsp; Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.facebook.com" class="fa fa-facebook-square" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+</body>
+</html>
